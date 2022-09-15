@@ -1,0 +1,103 @@
+/*--------- Підключення шрифтів ---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit/Larsseit.woff2') format('woff2'),
+        url('../fonts/Larsseit/Larsseit.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit/Larsseit-Bold.woff2') format('woff2'),
+        url('../fonts/Larsseit/Larsseit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit/Larsseit-Medium.woff2') format('woff2'),
+        url('../fonts/Larsseit/Larsseit-Medium.woff') format('woff');
+    font-weight: medium;
+    font-style: normal;
+    font-display: swap;
+}
+/*---------------------------------------------------------- */
+* {
+    font-family: 'Lato';
+    color: grey;
+}
+p{
+    color: blue;
+}
+h1{
+    font-family: 'Larsseit';
+    font-weight: bold;
+    color: red;
+}
+.title{
+    font-weight: bold;
+    color:darkslateblue;
+}
+.serials .title{
+    font-weight: bold;
+    color:mediumvioletred;
+}
+.sections *{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: green;
+}
+.sections a{
+    color: yellowgreen;
+}
+.element p{
+    color: black;
+    font-family: 'Larsseit';
+    font-weight: medium;
+}
+/*.films p, .serials p{
+    color:yellow;
+}*/
+.subtitle {
+    font-family: 'Larsseit';
+    font-weight: bold;
+    color: blue;
+}
+.author p{
+    font-family: 'Roboto';
+    font-weight: 900;
+    color: magenta;
+}
